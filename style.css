@@ -58,12 +58,35 @@ h3{
 /* @media (max-width: 1400px) and (min-width: 831px) {
 
 } */
-@media (max-width: 830px) and (min-width: 376px) {
+@media (max-width: 831px) and (min-width: 376px) {
     .kameraman2{
         display: none;
     }
     .part2{
-        margin-left: 7vw;
+        margin-left: 0vw;
+    }
+    h1{
+        font-size: 4.5vw;
+        margin-left: 4vw;
+    }
+    .text{
+        font-size: 2.1vw;
+        margin-left: 4vw;
+        width: 80vw;
+    }
+    .title{
+        width: 20vw;
+    }
+    .kameraman{
+    width: 40vw;
+    height: 25vw;
+    }
+    h3{
+    margin-top: 10vw;
+    font-size: 2.2vw;
+    }
+    .note{
+    font-size: 2vw;
     }
 }
 @media (max-width: 376px ) {
@@ -77,12 +100,12 @@ h3{
     h1{
         margin-top: 10vw;
         font-size: 5vw;
-        margin-left: 20vw;
+        margin-left: 15vw;
     }
     .text{
-    width: 60vw;
+    width: 70vw;
     font-size: 2.5vw;
-    margin-left: 20vw;
+    margin-left: 15vw;
     }
     h3{
     font-size: 3vw;
@@ -96,30 +119,16 @@ h3{
     }
     .part2{
         display: grid;
-        /* grid-template-areas: 
-        "a" "b"
-        "c" "."
-        ; */
         grid-template-columns: repeat(2, 1fr);
         margin-top: -5vw;
-        margin-left: 20vw;
+        margin-left: 15vw;
     }
     .title2{
-        margin-left: -20vw;
+        margin-left: -25vw;
     }
     .note{
         width: 20vw;
     }
-    
-    /* .title1{
-    grid-area: a;
-    }
-    .title2{
-    grid-area: b;
-    }
-    .title3{
-    grid-area: c;
-    } */
     .part1{
     flex-direction: column;
     } 
